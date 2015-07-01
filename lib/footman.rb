@@ -3,11 +3,7 @@
 class Footman < Unit
   attr_reader :health_points, :attack_power
   def initialize
-    # Need to default the 2 instance variables here
-    # Also also give code outside this class access to these variables (via attr_reader, attr_writer or attr_accessor)
-    super(60,10)
-    # @health_points = 60
-    # @attack_power = 10
+    super(60, 10)
   end
 
 end

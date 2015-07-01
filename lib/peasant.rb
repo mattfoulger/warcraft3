@@ -1,6 +1,6 @@
 class Peasant < Unit
 
-  attr_accessor :health_power, :attack_power
+  attr_reader :health_power, :attack_power
 
   def initialize
     super(35, 0)
